@@ -9,6 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Newtonsoft.Json;
 
 namespace ScratchApp.HTMLGen
 {
@@ -19,7 +20,7 @@ namespace ScratchApp.HTMLGen
         public string background_color;
         public string Construct()
         {
-            var json = new JavaScriptSerializer().Serialize(new StyleDTO(this));
+            var json = JsonConvert.SerializeObject(new StyleDTO(this));
             json = json.Replace('_', '-');
             json = json.Replace(',', ';');
             json = json.Replace('"', ' ');
