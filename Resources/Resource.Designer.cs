@@ -76,35 +76,53 @@ namespace ScratchApp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060002
-			public const int addStyleBtn = 2131099650;
+			// aapt resource value: 0x7f060006
+			public const int addStyleBtn = 2131099654;
+			
+			// aapt resource value: 0x7f06000e
+			public const int add_elementBtn = 2131099662;
+			
+			// aapt resource value: 0x7f06000b
+			public const int alignment_options_spinner = 2131099659;
+			
+			// aapt resource value: 0x7f06000c
+			public const int background_color_edit_text = 2131099660;
+			
+			// aapt resource value: 0x7f06000d
+			public const int confirmStyleBtn = 2131099661;
+			
+			// aapt resource value: 0x7f06000f
+			public const int content_List = 2131099663;
 			
 			// aapt resource value: 0x7f060007
-			public const int alignment_options_spinner = 2131099655;
+			public const int createHeaderButton = 2131099655;
 			
 			// aapt resource value: 0x7f060008
-			public const int background_color_edit_text = 2131099656;
-			
-			// aapt resource value: 0x7f060009
-			public const int confirmStyleBtn = 2131099657;
-			
-			// aapt resource value: 0x7f060003
-			public const int createHeaderButton = 2131099651;
-			
-			// aapt resource value: 0x7f060004
-			public const int dimension_metric_checkbox = 2131099652;
+			public const int dimension_metric_checkbox = 2131099656;
 			
 			// aapt resource value: 0x7f060000
-			public const int header_name_edit_text = 2131099648;
+			public const int element_name = 2131099648;
+			
+			// aapt resource value: 0x7f060002
+			public const int element_parent = 2131099650;
 			
 			// aapt resource value: 0x7f060001
-			public const int header_text_edit_text = 2131099649;
+			public const int element_position = 2131099649;
 			
-			// aapt resource value: 0x7f060006
-			public const int height_edit_text = 2131099654;
+			// aapt resource value: 0x7f060004
+			public const int header_name_edit_text = 2131099652;
+			
+			// aapt resource value: 0x7f060003
+			public const int header_position_edit_text = 2131099651;
 			
 			// aapt resource value: 0x7f060005
-			public const int width_edit_text = 2131099653;
+			public const int header_text_edit_text = 2131099653;
+			
+			// aapt resource value: 0x7f06000a
+			public const int height_edit_text = 2131099658;
+			
+			// aapt resource value: 0x7f060009
+			public const int width_edit_text = 2131099657;
 			
 			static Id()
 			{
@@ -120,13 +138,19 @@ namespace ScratchApp
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Create_header = 2130837504;
+			public const int ContentItem = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int Main = 2130837505;
+			public const int Create_header = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int Style = 2130837506;
+			public const int Main = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int Style = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int view_content = 2130837508;
 			
 			static Layout()
 			{
@@ -142,19 +166,22 @@ namespace ScratchApp
 		{
 			
 			// aapt resource value: 0x7f030004
-			public const int add_style = 2130903044;
+			public const int add_element = 2130903044;
 			
-			// aapt resource value: 0x7f030008
-			public const int alignment = 2130903048;
+			// aapt resource value: 0x7f030006
+			public const int add_style = 2130903046;
+			
+			// aapt resource value: 0x7f03000a
+			public const int alignment = 2130903050;
 			
 			// aapt resource value: 0x7f030000
 			public const int app_name = 2130903040;
 			
-			// aapt resource value: 0x7f03000a
-			public const int background_color = 2130903050;
+			// aapt resource value: 0x7f03000c
+			public const int background_color = 2130903052;
 			
-			// aapt resource value: 0x7f030009
-			public const int confirm = 2130903049;
+			// aapt resource value: 0x7f03000b
+			public const int confirm = 2130903051;
 			
 			// aapt resource value: 0x7f030001
 			public const int create_header = 2130903041;
@@ -165,14 +192,17 @@ namespace ScratchApp
 			// aapt resource value: 0x7f030003
 			public const int header_text = 2130903043;
 			
-			// aapt resource value: 0x7f030007
-			public const int height = 2130903047;
+			// aapt resource value: 0x7f030009
+			public const int height = 2130903049;
 			
 			// aapt resource value: 0x7f030005
-			public const int size_metric = 2130903045;
+			public const int position = 2130903045;
 			
-			// aapt resource value: 0x7f030006
-			public const int width = 2130903046;
+			// aapt resource value: 0x7f030007
+			public const int size_metric = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int width = 2130903048;
 			
 			static String()
 			{

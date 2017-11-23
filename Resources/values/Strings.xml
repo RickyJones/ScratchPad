@@ -4,6 +4,8 @@
   <string name="create_header">Create a Header</string>
   <string name="header_name">Header Name</string>
   <string name="header_text">Header Text</string>
+  <string name="add_element">Add Element</string>
+  <string name="position">Position On Page</string>
   <string name="add_style">Add Style</string>
   <string name="size_metric">In Pixels</string>
   <string name="width">Width</string>

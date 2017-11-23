@@ -22,6 +22,7 @@ namespace ScratchApp.HTMLGen
         {
             this.Id = id;
             this.Style = style;
+            if (style != null)
             this.Style.Id = id;
         }
         public void AddToPage(int positionOnPage)

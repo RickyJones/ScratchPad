@@ -61,7 +61,8 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CreateHeaderActivity.cs" />
+    <Compile Include="Activities\ContentActivity.cs" />
+    <Compile Include="Activities\CreateHeaderActivity.cs" />
     <Compile Include="HTMLGen\Element.cs" />
     <Compile Include="HTMLGen\GeneratedHtmlAndCss.cs" />
     <Compile Include="HTMLGen\HeaderOne.cs" />
@@ -73,10 +74,10 @@
     <Compile Include="HTMLGen\Table.cs" />
     <Compile Include="HTMLGen\TableRowData.cs" />
     <Compile Include="HTMLGen\Warnings.cs" />
-    <Compile Include="MainActivity.cs" />
+    <Compile Include="Activities\MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StyleActivity.cs" />
+    <Compile Include="Activities\StyleActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
@@ -88,6 +89,12 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\Style.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\view_content.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ContentItem.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

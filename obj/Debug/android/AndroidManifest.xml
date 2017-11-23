@@ -6,13 +6,14 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:allowBackup="true" android:label="@string/app_name" android:name="android.app.Application" android:debuggable="true">
     <activity android:label="Create A Header" android:name="md57ccafd60f2a55ce41e246f2494122faa.CreateHeaderActivity" />
-    <activity android:label="ScratchApp" android:name="md57ccafd60f2a55ce41e246f2494122faa.MainActivity">
+    <activity android:label="ScratchApp" android:name="md57ccafd60f2a55ce41e246f2494122faa.MainActivity" />
+    <activity android:label="Create A Style" android:name="md57ccafd60f2a55ce41e246f2494122faa.StyleActivity" />
+    <activity android:label="ContentActivity" android:name="md5826fb2b18a4bc40553beb81ff0fb3b9b.ContentActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:label="Create A Style" android:name="md57ccafd60f2a55ce41e246f2494122faa.StyleActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="ScratchApp.ScratchApp.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">
