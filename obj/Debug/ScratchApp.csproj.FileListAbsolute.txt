@@ -1,0 +1,16 @@
+C:\Users\ricky.jones\Documents\Visual Studio 2015\Projects\ScratchApp\ScratchPad\bin\Debug\ScratchApp.dll
+C:\Users\ricky.jones\Documents\Visual Studio 2015\Projects\ScratchApp\ScratchPad\bin\Debug\ScratchApp.pdb
+C:\Users\ricky.jones\Documents\Visual Studio 2015\Projects\ScratchApp\ScratchPad\bin\Debug\ScratchApp.ScratchApp.apk
+C:\Users\ricky.jones\Documents\Visual Studio 2015\Projects\ScratchApp\ScratchPad\bin\Debug\ScratchApp.ScratchApp-Signed.apk
+C:\Users\ricky.jones\Documents\Visual Studio 2015\Projects\ScratchApp\ScratchPad\obj\Debug\ScratchApp.csprojResolveAssemblyReference.cache
+C:\Users\ricky.jones\Documents\Visual Studio 2015\Projects\ScratchApp\ScratchPad\obj\Debug\ScratchApp.dll
+C:\Users\ricky.jones\Documents\Visual Studio 2015\Projects\ScratchApp\ScratchPad\obj\Debug\ScratchApp.pdb
+C:\Users\ricky.jones\Documents\Visual Studio 2015\Projects\ScratchApp\ScratchPad\obj\Debug\android\bin\ScratchApp.ScratchApp.apk
+C:\Users\ricky.jones\Documents\Visual Studio 2015\Projects\ScratchApp\ScratchPad\obj\Debug\res\layout\create_header.xml
+C:\Users\ricky.jones\Documents\Visual Studio 2015\Projects\ScratchApp\ScratchPad\obj\Debug\res\layout\style.xml
+C:\Users\ricky.jones\Documents\Visual Studio 2015\Projects\ScratchApp\ScratchPad\obj\Debug\res\layout\main.xml
+C:\Users\ricky.jones\Documents\Visual Studio 2015\Projects\ScratchApp\ScratchPad\obj\Debug\res\values\strings.xml
+C:\Users\ricky.jones\Documents\Visual Studio 2015\Projects\ScratchApp\ScratchPad\obj\Debug\R.cs.flag
+C:\Users\ricky.jones\Documents\Visual Studio 2015\Projects\ScratchApp\ScratchPad\obj\Debug\uploadflags.txt
+C:\Users\ricky.jones\Documents\Visual Studio 2015\Projects\ScratchApp\ScratchPad\bin\Debug\ScratchApp.dll.mdb
+C:\Users\ricky.jones\Documents\Visual Studio 2015\Projects\ScratchApp\ScratchPad\obj\Debug\android\assets\ScratchApp.dll.mdb
