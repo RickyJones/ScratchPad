@@ -23,7 +23,7 @@ public final class R {
         public static final int alignment_options_spinner=0x7f06000f;
         public static final int background_color_edit_text=0x7f060010;
         public static final int confirmStyleBtn=0x7f060011;
-        public static final int content_List=0x7f060014;
+        public static final int content_List=0x7f060015;
         public static final int createHeaderButton=0x7f06000b;
         public static final int dimension_metric_checkbox=0x7f06000c;
         public static final int elementTypeSpinner=0x7f060012;
@@ -34,6 +34,7 @@ public final class R {
         public static final int element_parent=0x7f060007;
         public static final int element_position=0x7f060006;
         public static final int element_position_edit_text=0x7f060000;
+        public static final int generate_Btn=0x7f060014;
         public static final int header_text_edit_text=0x7f060008;
         public static final int height_edit_text=0x7f06000e;
         public static final int para_text_edit_text=0x7f06000a;

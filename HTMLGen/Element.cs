@@ -44,5 +44,6 @@ namespace ScratchApp.HTMLGen
         {
             parent.NestedElements.Add(this);
         }
+        public abstract GeneratedHtmlAndCss Construct();
     }
 }

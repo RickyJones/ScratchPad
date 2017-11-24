@@ -11,10 +11,12 @@ using Android.Views;
 using Android.Widget;
 using Java.Lang;
 using ScratchApp.HTMLGen;
+using System.IO;
+using static Android.Provider.MediaStore.Images;
 
 namespace ScratchApp.Activities
 {
-    [Activity(Label = "ContentActivity", MainLauncher =true)]
+    [Activity(Label = "ContentActivity", MainLauncher = true)]
     public class ContentActivity : Activity
     {
         ElementType elementType;
@@ -32,6 +34,54 @@ namespace ScratchApp.Activities
             contentList.Adapter = adapter;
             Button addElementButton = FindViewById<Button>(Resource.Id.add_elementBtn);
             addElementButton.Click += AddElementButton_Click;
+            Button generateHtmlBtn = FindViewById<Button>(Resource.Id.generate_Btn);
+            generateHtmlBtn.Click += GenerateHtmlBtn_Click;
+        }
+
+        private void GenerateHtmlBtn_Click(object sender, EventArgs e)
+        {
+            var gen = HTMLGen.HtmlBuilder.Instance.BuildHtml();
+            CreateFile(gen.First().Key, gen.First().Value);
+        }
+        private void CreateFile(string HTML, string CSS)
+        {
+            var documents = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments);
+            var filename = Path.Combine(documents, "Gen.html");
+
+            var email = new Intent(Android.Content.Intent.ActionSend);
+            var uri = "http://localhost:8080/" + filename;//Android.Net.Uri.FromFile(fil);
+            var myUri = Android.Net.Uri.Parse(uri);
+           // Android.Net.Uri uria = (Android.Net.Uri)filename;
+
+            var intent = new Intent(Intent.ActionView, myUri);
+            StartActivity(intent);
+
+            //email.PutExtra(Android.Content.Intent.ExtraEmail, new string[] { "my.mail@web.de" });
+            //email.PutExtra(Intent.ExtraStream, uri);
+            //email.SetType("message/rfc822");
+            //var test = System.IO.File.ReadAllText(uri);
+            //Java.IO.File f = new Java.IO.File(filename);
+            //f.SetReadable(true, false);
+            //var uriL = Android.Net.Uri.FromFile(f);
+            //email.PutExtra(Intent.ExtraStream, uriL);
+            //StartActivityForResult(Intent.CreateChooser(email, "Send mail..."),0);
+            //StartActivityForResult(Intent.CreateChooser(email, "Send mail..."));
+            
+            //if (f.Exists())
+            //{
+            //    try
+            //    {
+            //        Intent openFileIntent = new Intent(Intent.ActionView);
+            //        openFileIntent.SetDataAndType(Android.Net.Uri.FromFile(f), "application/pdf");
+            //        openFileIntent.SetFlags(ActivityFlags.NoHistory);
+
+            //        StartActivity(Intent.CreateChooser(openFileIntent, "Open pdf file"));
+            //    }
+            //    catch (ActivityNotFoundException)
+            //    {
+            //        //handle when no available apps
+            //    }
+            //}
         }
 
         private void spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)

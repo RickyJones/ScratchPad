@@ -25,7 +25,7 @@ namespace ScratchApp.HTMLGen
             this.numFields = headers.Count();
             this.numRecords = data.Count();
         }
-        public GeneratedHtmlAndCss Construct()
+        public override GeneratedHtmlAndCss Construct()
         {
             return new GeneratedHtmlAndCss { Html = ConstructHtml(), css = this.Style.Construct() };
         }
@@ -52,5 +52,7 @@ namespace ScratchApp.HTMLGen
             }
             return tableHTML = headersHTML + rowsHTML;
         }
+
+
     }
 }

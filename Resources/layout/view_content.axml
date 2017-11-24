@@ -13,6 +13,11 @@
   android:layout_width="wrap_content"
   android:layout_height="50dp"
   android:text="@string/add_element"/>
+  <Button
+   android:id="@+id/generate_Btn"
+ android:layout_width="wrap_content"
+ android:layout_height="50dp"
+ android:text="Generate HTML"/>
 <ListView
   android:id="@+id/content_List"
   android:layout_width="match_parent"

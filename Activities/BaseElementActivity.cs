@@ -23,6 +23,7 @@ namespace ScratchApp.Activities
         protected EditText elementNameField;
         protected Action styleBtnFunc;
         protected Element element;
+        protected List<string> validationMessages;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);

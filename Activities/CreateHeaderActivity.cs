@@ -31,5 +31,13 @@ namespace ScratchApp
             };
             base.OnCreate(savedInstanceState);
         }
+
+        private void Validation()
+        {
+            if(textInHeader.Text == string.Empty)
+            {
+                validationMessages.Add("Field is empty.");
+            }
+        }
     }
 }

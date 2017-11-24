@@ -9,6 +9,8 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Java.IO;
+using System.IO;
 
 namespace ScratchApp.HTMLGen
 {
@@ -31,15 +33,21 @@ namespace ScratchApp.HTMLGen
             }
         }
         public Dictionary<int, Element> PageStructureDictionary = new Dictionary<int, Element>();
-        public string BuildHtml()
+        private Dictionary<string, string> HTMLCSSCouple;
+        public Dictionary<string, string> BuildHtml()
         {
             PageStructureDictionary.OrderBy(x => x.Key); //ensure index ordering
-            string HtmlGen;
+            string HtmlGen = string.Empty;
+            string CSSGen = string.Empty;
             foreach (Element element in PageStructureDictionary.Values)
             {
-
+                HtmlGen += element.Construct().Html;
+                CSSGen += element.Construct().css;
             }
-            return string.Empty;
+            HTMLCSSCouple = new Dictionary<string, string>();
+            HTMLCSSCouple.Add(HtmlGen, CSSGen);
+            return HTMLCSSCouple;
         }
+        
     }
 }

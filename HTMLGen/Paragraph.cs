@@ -21,7 +21,7 @@ namespace ScratchApp.HTMLGen
             this.Text = text;
             this.Style = style;
         }
-        public GeneratedHtmlAndCss Construct()
+        public override GeneratedHtmlAndCss Construct()
         {
             string HTML = $"<p>{Text}</p>";
             string CSS = this.Style.Construct();

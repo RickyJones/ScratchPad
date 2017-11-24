@@ -94,8 +94,8 @@ namespace ScratchApp
 			// aapt resource value: 0x7f060011
 			public const int confirmStyleBtn = 2131099665;
 			
-			// aapt resource value: 0x7f060014
-			public const int content_List = 2131099668;
+			// aapt resource value: 0x7f060015
+			public const int content_List = 2131099669;
 			
 			// aapt resource value: 0x7f06000b
 			public const int createHeaderButton = 2131099659;
@@ -126,6 +126,9 @@ namespace ScratchApp
 			
 			// aapt resource value: 0x7f060000
 			public const int element_position_edit_text = 2131099648;
+			
+			// aapt resource value: 0x7f060014
+			public const int generate_Btn = 2131099668;
 			
 			// aapt resource value: 0x7f060008
 			public const int header_text_edit_text = 2131099656;
