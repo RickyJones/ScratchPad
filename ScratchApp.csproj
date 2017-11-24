@@ -61,8 +61,10 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities\BaseElementActivity.cs" />
     <Compile Include="Activities\ContentActivity.cs" />
     <Compile Include="Activities\CreateHeaderActivity.cs" />
+    <Compile Include="Activities\CreateParagraphActivity.cs" />
     <Compile Include="HTMLGen\Element.cs" />
     <Compile Include="HTMLGen\GeneratedHtmlAndCss.cs" />
     <Compile Include="HTMLGen\HeaderOne.cs" />
@@ -95,6 +97,12 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\ContentItem.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\BaseElementLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\CreateParagraph.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

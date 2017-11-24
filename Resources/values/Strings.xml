@@ -13,6 +13,10 @@
   <string name="alignment">Select Alignment</string>
   <string name="confirm">Confirm</string>
   <string name="background_color">Background Colour</string>
+  <string-array name="element_type_options_array">
+    <item>Header One</item>
+    <item>Paragraph</item>
+  </string-array>
   <string-array name="alignment_options_array">
     <item>none</item>
     <item>left</item>

@@ -17,16 +17,16 @@ namespace ScratchApp.Activities
     [Activity(Label = "ContentActivity", MainLauncher =true)]
     public class ContentActivity : Activity
     {
+        ElementType elementType;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.view_content);
-            Style style = new Style();
-            style.Size.Height = 10;
-            style.Size.Width = 100;
-            style.background_color = "white";
-            Paragraph p = new Paragraph("first pa", "some text", style);
-            HtmlBuilder.Instance.PageStructureDictionary.Add(1, p);
+            Spinner elementTypeSpinner = FindViewById<Spinner>(Resource.Id.elementTypeSpinner);
+            ArrayAdapter spinnerAdapter = ArrayAdapter.CreateFromResource(this,
+            Resource.Array.element_type_options_array, Android.Resource.Layout.SimpleSpinnerItem);
+            elementTypeSpinner.Adapter = spinnerAdapter;
+            elementTypeSpinner.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs>(spinner_ItemSelected);
             ListView contentList = FindViewById<ListView>(Resource.Id.content_List);
             ContentListAdapter adapter = new ContentListAdapter(this, HtmlBuilder.Instance.PageStructureDictionary);
             contentList.Adapter = adapter;
@@ -34,9 +34,35 @@ namespace ScratchApp.Activities
             addElementButton.Click += AddElementButton_Click;
         }
 
+        private void spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
+        {
+            Spinner spinner = (Spinner)sender;
+            string elmtType = spinner.GetItemAtPosition(e.Position).ToString();
+            switch (elmtType)
+            {
+                case "Header One":
+                    this.elementType = ElementType.HeaderOne;
+                    break;
+                case "Paragraph":
+                    this.elementType = ElementType.Paragraph;
+                    break;
+                default:
+                    break;
+            }
+        }
+
         private void AddElementButton_Click(object sender, EventArgs e)
         {
-            Intent intent = new Intent(this, typeof(CreateHeaderActivity));
+            Intent intent = new Intent();
+            switch(elementType)
+            {
+                case ElementType.HeaderOne:
+                    intent = new Intent(this, typeof(CreateHeaderActivity));
+                    break;
+                case ElementType.Paragraph:
+                    intent = new Intent(this, typeof(CreateParagraphActivity));
+                    break;
+            }
             StartActivity(intent);
         }
     }
@@ -62,6 +88,11 @@ namespace ScratchApp.Activities
         public override Java.Lang.Object GetItem(int position)
         {
             return null;//Java.Lang.Object(Elements[position]);
+        }
+
+        public Element GetElement(int position)
+        {
+            return Elements[position];
         }
 
         public override long GetItemId(int position)

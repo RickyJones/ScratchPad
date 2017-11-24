@@ -19,7 +19,6 @@ namespace ScratchApp.HTMLGen
         public Paragraph(string name, string text, Style style) : base(name, style)
         {
             this.Text = text;
-            style.Id = "p";
             this.Style = style;
         }
         public GeneratedHtmlAndCss Construct()

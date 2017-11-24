@@ -1,7 +1,7 @@
-package md57ccafd60f2a55ce41e246f2494122faa;
+package md5826fb2b18a4bc40553beb81ff0fb3b9b;
 
 
-public class CreateHeaderActivity
+public class CreateParagraphActivity
 	extends md5826fb2b18a4bc40553beb81ff0fb3b9b.BaseElementActivity
 	implements
 		mono.android.IGCUserPeer
@@ -12,15 +12,15 @@ public class CreateHeaderActivity
 		__md_methods = 
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
 			"";
-		mono.android.Runtime.register ("ScratchApp.CreateHeaderActivity, ScratchApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", CreateHeaderActivity.class, __md_methods);
+		mono.android.Runtime.register ("ScratchApp.Activities.CreateParagraphActivity, ScratchApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", CreateParagraphActivity.class, __md_methods);
 	}
 
 
-	public CreateHeaderActivity () throws java.lang.Throwable
+	public CreateParagraphActivity () throws java.lang.Throwable
 	{
 		super ();
-		if (getClass () == CreateHeaderActivity.class)
-			mono.android.TypeManager.Activate ("ScratchApp.CreateHeaderActivity, ScratchApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+		if (getClass () == CreateParagraphActivity.class)
+			mono.android.TypeManager.Activate ("ScratchApp.Activities.CreateParagraphActivity, ScratchApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
 

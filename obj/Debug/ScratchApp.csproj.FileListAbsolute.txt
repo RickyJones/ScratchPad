@@ -18,3 +18,5 @@ C:\Users\ricky.jones\Documents\Visual Studio 2015\Projects\ScratchApp\ScratchPad
 C:\Users\ricky.jones\Documents\Visual Studio 2015\Projects\ScratchApp\ScratchPad\bin\Debug\Newtonsoft.Json.xml
 C:\Users\ricky.jones\Documents\Visual Studio 2015\Projects\ScratchApp\ScratchPad\obj\Debug\res\layout\view_content.xml
 C:\Users\ricky.jones\Documents\Visual Studio 2015\Projects\ScratchApp\ScratchPad\obj\Debug\res\layout\contentitem.xml
+C:\Users\ricky.jones\Documents\Visual Studio 2015\Projects\ScratchApp\ScratchPad\obj\Debug\res\layout\baseelementlayout.xml
+C:\Users\ricky.jones\Documents\Visual Studio 2015\Projects\ScratchApp\ScratchPad\obj\Debug\res\layout\createparagraph.xml

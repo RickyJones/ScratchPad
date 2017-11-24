@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <TextView
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:text="@string/position"
+     android:textColor="@color/white"/>
+  <EditText
+    android:id="@+id/element_position_edit_text"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:padding="5dp"
+    android:textColor="@color/white"/>
+  <TextView
+    android:id="@+id/element_name_label"
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:text="@string/header_name"
+     android:textColor="@color/white"/>
+  <EditText
+    android:id="@+id/element_name_edit_text"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:padding="5dp"
+    android:textColor="@color/white"/>
+  <FrameLayout
+       android:id="@+id/element_content_frame"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+  <Button
+      android:id="@+id/addStyleBtn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="5dp"
+      android:onClick="AddStyle"
+      android:text="@string/add_style"
+      android:textColor="@color/white"/>
+
+</LinearLayout>

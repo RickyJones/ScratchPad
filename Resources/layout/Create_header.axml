@@ -6,28 +6,6 @@
   <TextView
      android:layout_height="wrap_content"
      android:layout_width="wrap_content"
-     android:text="@string/position"
-     android:textColor="@color/white"/>
-  <EditText
-    android:id="@+id/header_position_edit_text"
-    android:layout_width="match_parent"
-    android:layout_height="50dp"
-    android:padding="5dp"
-    android:textColor="@color/white"/>
-  <TextView
-     android:layout_height="wrap_content"
-     android:layout_width="wrap_content"
-     android:text="@string/header_name"
-     android:textColor="@color/white"/>
-  <EditText
-    android:id="@+id/header_name_edit_text"
-    android:layout_width="match_parent"
-    android:layout_height="50dp"
-    android:padding="5dp"
-    android:textColor="@color/white"/>
-  <TextView
-     android:layout_height="wrap_content"
-     android:layout_width="wrap_content"
      android:text="@string/header_text"
      android:textColor="@color/white"/>
   <EditText
@@ -36,13 +14,5 @@
     android:layout_height="50dp"
     android:padding="5dp"
     android:textColor="@color/white"/>
-  <Button
-      android:id="@+id/addStyleBtn"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_margin="5dp"
-      android:onClick="AddStyle"
-      android:text="@string/add_style"
-      android:textColor="@color/white"/>
 
 </LinearLayout>

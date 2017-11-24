@@ -12,6 +12,10 @@ using Android.Widget;
 
 namespace ScratchApp.HTMLGen
 {
+    public enum ElementType
+    {
+        HeaderOne, Paragraph
+    }
     public abstract class Element
     {
         public string Id;
