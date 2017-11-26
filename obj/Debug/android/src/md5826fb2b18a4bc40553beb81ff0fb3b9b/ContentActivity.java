@@ -16,7 +16,7 @@ public class ContentActivity
 	}
 
 
-	public ContentActivity () throws java.lang.Throwable
+	public ContentActivity ()
 	{
 		super ();
 		if (getClass () == ContentActivity.class)

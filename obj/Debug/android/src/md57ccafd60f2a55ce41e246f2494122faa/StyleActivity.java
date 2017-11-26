@@ -16,7 +16,7 @@ public class StyleActivity
 	}
 
 
-	public StyleActivity () throws java.lang.Throwable
+	public StyleActivity ()
 	{
 		super ();
 		if (getClass () == StyleActivity.class)

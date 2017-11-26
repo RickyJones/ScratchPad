@@ -19,14 +19,14 @@ public final class R {
     }
     public static final class id {
         public static final int addStyleBtn=0x7f060004;
-        public static final int add_elementBtn=0x7f060013;
+        public static final int add_elementBtn=0x7f060018;
         public static final int alignment_options_spinner=0x7f06000f;
-        public static final int background_color_edit_text=0x7f060010;
-        public static final int confirmStyleBtn=0x7f060011;
-        public static final int content_List=0x7f060015;
+        public static final int background_color_edit_text=0x7f060015;
+        public static final int confirmStyleBtn=0x7f060016;
+        public static final int content_List=0x7f06001a;
         public static final int createHeaderButton=0x7f06000b;
         public static final int dimension_metric_checkbox=0x7f06000c;
-        public static final int elementTypeSpinner=0x7f060012;
+        public static final int elementTypeSpinner=0x7f060017;
         public static final int element_content_frame=0x7f060003;
         public static final int element_name=0x7f060005;
         public static final int element_name_edit_text=0x7f060002;
@@ -34,9 +34,14 @@ public final class R {
         public static final int element_parent=0x7f060007;
         public static final int element_position=0x7f060006;
         public static final int element_position_edit_text=0x7f060000;
-        public static final int generate_Btn=0x7f060014;
+        public static final int generate_Btn=0x7f060019;
         public static final int header_text_edit_text=0x7f060008;
         public static final int height_edit_text=0x7f06000e;
+        public static final int padding_bottom_edit_text=0x7f060012;
+        public static final int padding_edit_text=0x7f060010;
+        public static final int padding_left_edit_text=0x7f060014;
+        public static final int padding_right_edit_text=0x7f060013;
+        public static final int padding_top_edit_text=0x7f060011;
         public static final int para_text_edit_text=0x7f06000a;
         public static final int para_text_label=0x7f060009;
         public static final int width_edit_text=0x7f06000d;

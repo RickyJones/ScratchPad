@@ -17,6 +17,7 @@ namespace ScratchApp.HTMLGen
     {
         public string Id;
         public StyleDimensions Size;
+        public Padding padding;
         public string background_color;
         public string Construct()
         {

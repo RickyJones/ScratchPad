@@ -19,7 +19,7 @@ public class ContentListAdapter
 	}
 
 
-	public ContentListAdapter () throws java.lang.Throwable
+	public ContentListAdapter ()
 	{
 		super ();
 		if (getClass () == ContentListAdapter.class)

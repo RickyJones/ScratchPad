@@ -16,7 +16,7 @@ public class CreateHeaderActivity
 	}
 
 
-	public CreateHeaderActivity () throws java.lang.Throwable
+	public CreateHeaderActivity ()
 	{
 		super ();
 		if (getClass () == CreateHeaderActivity.class)

@@ -18,7 +18,7 @@ public abstract class BaseElementActivity
 	}
 
 
-	public BaseElementActivity () throws java.lang.Throwable
+	public BaseElementActivity ()
 	{
 		super ();
 		if (getClass () == BaseElementActivity.class)

@@ -16,7 +16,7 @@ public class CreateParagraphActivity
 	}
 
 
-	public CreateParagraphActivity () throws java.lang.Throwable
+	public CreateParagraphActivity ()
 	{
 		super ();
 		if (getClass () == CreateParagraphActivity.class)

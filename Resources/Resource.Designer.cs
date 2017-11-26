@@ -82,20 +82,20 @@ namespace ScratchApp
 			// aapt resource value: 0x7f060004
 			public const int addStyleBtn = 2131099652;
 			
-			// aapt resource value: 0x7f060013
-			public const int add_elementBtn = 2131099667;
+			// aapt resource value: 0x7f060018
+			public const int add_elementBtn = 2131099672;
 			
 			// aapt resource value: 0x7f06000f
 			public const int alignment_options_spinner = 2131099663;
 			
-			// aapt resource value: 0x7f060010
-			public const int background_color_edit_text = 2131099664;
-			
-			// aapt resource value: 0x7f060011
-			public const int confirmStyleBtn = 2131099665;
-			
 			// aapt resource value: 0x7f060015
-			public const int content_List = 2131099669;
+			public const int background_color_edit_text = 2131099669;
+			
+			// aapt resource value: 0x7f060016
+			public const int confirmStyleBtn = 2131099670;
+			
+			// aapt resource value: 0x7f06001a
+			public const int content_List = 2131099674;
 			
 			// aapt resource value: 0x7f06000b
 			public const int createHeaderButton = 2131099659;
@@ -103,8 +103,8 @@ namespace ScratchApp
 			// aapt resource value: 0x7f06000c
 			public const int dimension_metric_checkbox = 2131099660;
 			
-			// aapt resource value: 0x7f060012
-			public const int elementTypeSpinner = 2131099666;
+			// aapt resource value: 0x7f060017
+			public const int elementTypeSpinner = 2131099671;
 			
 			// aapt resource value: 0x7f060003
 			public const int element_content_frame = 2131099651;
@@ -127,14 +127,29 @@ namespace ScratchApp
 			// aapt resource value: 0x7f060000
 			public const int element_position_edit_text = 2131099648;
 			
-			// aapt resource value: 0x7f060014
-			public const int generate_Btn = 2131099668;
+			// aapt resource value: 0x7f060019
+			public const int generate_Btn = 2131099673;
 			
 			// aapt resource value: 0x7f060008
 			public const int header_text_edit_text = 2131099656;
 			
 			// aapt resource value: 0x7f06000e
 			public const int height_edit_text = 2131099662;
+			
+			// aapt resource value: 0x7f060012
+			public const int padding_bottom_edit_text = 2131099666;
+			
+			// aapt resource value: 0x7f060010
+			public const int padding_edit_text = 2131099664;
+			
+			// aapt resource value: 0x7f060014
+			public const int padding_left_edit_text = 2131099668;
+			
+			// aapt resource value: 0x7f060013
+			public const int padding_right_edit_text = 2131099667;
+			
+			// aapt resource value: 0x7f060011
+			public const int padding_top_edit_text = 2131099665;
 			
 			// aapt resource value: 0x7f06000a
 			public const int para_text_edit_text = 2131099658;

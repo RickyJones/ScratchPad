@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{7EE4826B-B3D5-4405-A828-E0AAFD26BF92}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HTMLGen/StyleDTO.cs">
+    <Files>
+      <File FileName="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/8.0.2-1/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1092" Column="2" />
+      <File FileName="HTMLGen/GeneratedHtmlAndCss.cs" Line="1" Column="1" />
+      <File FileName="HTMLGen/HtmlBuilder.cs" Line="1" Column="1" />
+      <File FileName="Activities/StyleActivity.cs" Line="76" Column="17" />
+      <File FileName="HTMLGen/Style.cs" Line="19" Column="25" />
+      <File FileName="HTMLGen/Box.cs" Line="13" Column="16" />
+      <File FileName="HTMLGen/Padding.cs" Line="12" Column="30" />
+      <File FileName="HTMLGen/StyleDTO.cs" Line="30" Column="42" />
+      <File FileName="HTMLGen/StyleDimensions.cs" Line="15" Column="19" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/rickyjones/Developer/ScratchPad/HTMLGen/HtmlBuilder.cs" relfile="HTMLGen/HtmlBuilder.cs" line="49" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ScratchApp AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+</Properties>
