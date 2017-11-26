@@ -48,65 +48,19 @@
             android:layout_width="match_parent"
             android:padding="5dp"
             android:layout_height="50dp" />
-        <TextView
-            android:layout_height="wrap_content"
+        <Button
+            android:id="@+id/addPaddingBtn"
             android:layout_width="wrap_content"
-            android:padding="5dp"
-            android:text="Padding"
-            android:textColor="@color/white" />
-        <EditText
-            android:id="@+id/padding_edit_text"
-            android:layout_width="match_parent"
-            android:padding="5dp"
-            android:layout_height="50dp"
-            android:textColor="@color/white" />
-        <TextView
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Add Padding"
+            android:textColor="@color/white" />
+        <Button
+            android:id="@+id/addMarginBtn"
             android:layout_width="wrap_content"
-            android:padding="5dp"
-            android:text="Padding Top"
-            android:textColor="@color/white" />
-        <EditText
-            android:id="@+id/padding_top_edit_text"
-            android:layout_width="match_parent"
-            android:padding="5dp"
-            android:layout_height="50dp"
-            android:textColor="@color/white" />
-        <TextView
             android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:padding="5dp"
-            android:text="Padding Bottom"
-            android:textColor="@color/white" />
-        <EditText
-            android:id="@+id/padding_bottom_edit_text"
-            android:layout_width="match_parent"
-            android:padding="5dp"
-            android:layout_height="50dp"
-            android:textColor="@color/white" />
-        <TextView
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:padding="5dp"
-            android:text="Padding Right"
-            android:textColor="@color/white" />
-        <EditText
-            android:id="@+id/padding_right_edit_text"
-            android:layout_width="match_parent"
-            android:padding="5dp"
-            android:layout_height="50dp"
-            android:textColor="@color/white" />
-        <TextView
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:padding="5dp"
-            android:text="Padding Left"
-            android:textColor="@color/white" />
-        <EditText
-            android:id="@+id/padding_left_edit_text"
-            android:layout_width="match_parent"
-            android:padding="5dp"
-            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:text="Add Margin"
             android:textColor="@color/white" />
         <TextView
             android:layout_height="wrap_content"

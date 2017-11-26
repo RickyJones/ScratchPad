@@ -1,15 +1,17 @@
 ﻿<Properties StartupConfiguration="{7EE4826B-B3D5-4405-A828-E0AAFD26BF92}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HTMLGen/StyleDTO.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HTMLGen/Margin.cs">
     <Files>
       <File FileName="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/8.0.2-1/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1092" Column="2" />
       <File FileName="HTMLGen/GeneratedHtmlAndCss.cs" Line="1" Column="1" />
       <File FileName="HTMLGen/HtmlBuilder.cs" Line="1" Column="1" />
-      <File FileName="Activities/StyleActivity.cs" Line="76" Column="17" />
-      <File FileName="HTMLGen/Style.cs" Line="19" Column="25" />
-      <File FileName="HTMLGen/Box.cs" Line="13" Column="16" />
-      <File FileName="HTMLGen/Padding.cs" Line="12" Column="30" />
-      <File FileName="HTMLGen/StyleDTO.cs" Line="30" Column="42" />
+      <File FileName="Activities/StyleActivity.cs" Line="50" Column="39" />
+      <File FileName="HTMLGen/Style.cs" Line="16" Column="18" />
+      <File FileName="HTMLGen/Box.cs" Line="9" Column="15" />
+      <File FileName="HTMLGen/Padding.cs" Line="14" Column="6" />
+      <File FileName="HTMLGen/StyleDTO.cs" Line="34" Column="63" />
       <File FileName="HTMLGen/StyleDimensions.cs" Line="15" Column="19" />
+      <File FileName="Activities/BoxActivity.cs" Line="45" Column="23" />
+      <File FileName="HTMLGen/Margin.cs" Line="4" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

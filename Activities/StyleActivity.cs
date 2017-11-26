@@ -21,11 +21,8 @@ namespace ScratchApp
         int keyOfElementToStyle;
         EditText widthField;
         EditText heightField;
-        EditText allPaddingField;
-        EditText topPaddingField;
-        EditText bottomPaddingField;
-        EditText rightPaddingField;
-        EditText leftPaddingField;
+        Button addPaddingBtn;
+        Button addMarginBtn;
         EditText backgroundColorField;
         CheckBox isPixelsCheckbox;
         string alignment;
@@ -41,11 +38,19 @@ namespace ScratchApp
             widthField = FindViewById<EditText>(Resource.Id.width_edit_text);
             heightField = FindViewById<EditText>(Resource.Id.height_edit_text);
             isPixelsCheckbox = FindViewById<CheckBox>(Resource.Id.dimension_metric_checkbox);
-            allPaddingField = FindViewById<EditText>(Resource.Id.padding_edit_text);
-            topPaddingField = FindViewById<EditText>(Resource.Id.padding_top_edit_text);
-            bottomPaddingField = FindViewById<EditText>(Resource.Id.padding_bottom_edit_text);
-            rightPaddingField = FindViewById<EditText>(Resource.Id.padding_right_edit_text);
-            leftPaddingField = FindViewById<EditText>(Resource.Id.padding_left_edit_text);
+            addPaddingBtn = FindViewById<Button>(Resource.Id.addPaddingBtn);
+            addPaddingBtn.Click += (sender, e) => {
+                Intent PaddingIntent = new Intent(this, typeof(BoxActivity));
+                intent.PutExtra("BoxType", Box.BoxType.Padding.ToString());
+                StartActivity(intent);
+            };
+            addMarginBtn.Click += (sender, e) => {
+                Intent MarginIntent = new Intent(this, typeof(BoxActivity));
+                intent.PutExtra("BoxType", Box.BoxType.Margin.ToString());
+                StartActivity(intent);
+            };
+            addMarginBtn = FindViewById<Button>(Resource.Id.addMarginBtn);
+
             backgroundColorField = FindViewById<EditText>(Resource.Id.background_color_edit_text);
             isPixelsCheckbox.Click += IsPixelsCheckbox_Click;
 
@@ -72,8 +77,7 @@ namespace ScratchApp
         private void ConfirmButton_Click(object sender, EventArgs e)
         {
             Element elementToStyle = HtmlBuilder.Instance.PageStructureDictionary[keyOfElementToStyle];
-            Padding padding = new Padding(Convert.ToDouble(allPaddingField.Text),
-                                     Convert.ToDouble(topPaddingField.Text), Convert.ToDouble(bottomPaddingField.Text), Convert.ToDouble(rightPaddingField.Text), Convert.ToDouble(leftPaddingField.Text));
+
             Style style = new Style { Id = elementToStyle.Id, background_color = backgroundColorField.Text,
                 Size = new StyleDimensions { Width = Convert.ToDouble(widthField.Text), Height = Convert.ToDouble(heightField.Text),
                     SizeType = (inPixels ? StyleDimensions.DimensionType.Pixels : StyleDimensions.DimensionType.Percentage) }, padding = padding };

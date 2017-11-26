@@ -82,6 +82,8 @@
     <Compile Include="Activities\StyleActivity.cs" />
     <Compile Include="HTMLGen\Box.cs" />
     <Compile Include="HTMLGen\Padding.cs" />
+    <Compile Include="Activities\BoxActivity.cs" />
+    <Compile Include="HTMLGen\Margin.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
@@ -107,6 +109,7 @@
     <AndroidResource Include="Resources\layout\CreateParagraph.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\Box.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml">
